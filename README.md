@@ -1,6 +1,6 @@
 # Suture
 [![Build status](https://travis-ci.org/vanruesc/suture.svg?branch=master)](https://travis-ci.org/vanruesc/suture) 
-[![Windows build status](https://ci.appveyor.com/api/projects/status/XXXXXX?svg=true)](https://ci.appveyor.com/project/vanruesc/suture) 
+[![Windows build status](https://ci.appveyor.com/api/projects/status/0wbtqmte6hfyx17r?svg=true)](https://ci.appveyor.com/project/vanruesc/suture) 
 [![GitHub version](https://badge.fury.io/gh/vanruesc%2Fsuture.svg)](http://badge.fury.io/gh/vanruesc%2Fsuture) 
 [![npm version](https://badge.fury.io/js/suture.svg)](http://badge.fury.io/js/suture) 
 [![Dependencies](https://david-dm.org/vanruesc/suture.svg?branch=master)](https://david-dm.org/vanruesc/suture)
