@@ -1,0 +1,61 @@
+{
+	"name": "suture",
+	"version": "0.0.0",
+	"description": "A 3D game engine.",
+	"homepage": "https://github.com/vanruesc/suture",
+	"main": "build/suture.js",
+	"jsnext:main": "src/index.js",
+	"license": "Apache-2.0",
+
+	"keywords": [
+		"3d",
+		"three",
+		"rendering",
+		"physics",
+		"simulation",
+		"oimo",
+		"OimoPhysics",
+		"game",
+		"engine"
+	],
+
+	"author": {
+		"name": "Raoul van Rüschen",
+		"email": "vanruesc@fh-brandenburg.de"
+	},
+
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/vanruesc/suture.git"
+	},
+
+	"bugs": {
+		"url": "https://github.com/vanruesc/suture/issues"
+	},
+
+	"scripts": {
+		"test": "node grunt-cli.js"
+	},
+
+	"engines": {
+		"node": ">= 4.2"
+	},
+
+	"dependencies": {},
+
+	"devDependencies": {
+		"grunt": "0.x.x",
+		"grunt-contrib-jshint": "x.x.x",
+		"grunt-contrib-uglify": "x.x.x",
+		"grunt-contrib-yuidoc": "x.x.x",
+		"grunt-contrib-clean": "x.x.x",
+		"grunt-contrib-watch": "x.x.x",
+		"grunt-mocha": "x.x.x",
+		"grunt-rollup": "x.x.x",
+		"rollup-plugin-npm": "x.x.x"
+	},
+
+	"peerDependencies": {
+		"grunt": "0.x.x"
+	}
+}
