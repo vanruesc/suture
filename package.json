@@ -38,7 +38,7 @@
 	},
 
 	"engines": {
-		"node": ">= 4.2"
+		"node": ">= 5.1"
 	},
 
 	"dependencies": {},

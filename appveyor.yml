@@ -7,7 +7,6 @@ clone_depth: 1
 environment:
   matrix:
     # node.js
-    - nodejs_version: 4.2
     - nodejs_version: 5.1
 
 install:
