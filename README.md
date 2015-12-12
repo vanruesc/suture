@@ -5,8 +5,9 @@
 [![npm version](https://badge.fury.io/js/suture.svg)](http://badge.fury.io/js/suture) 
 [![Dependencies](https://david-dm.org/vanruesc/suture.svg?branch=master)](https://david-dm.org/vanruesc/suture)
 
-A 3D game engine that stitches systems together in order to provide a single API for game development purposes. 
-Suture is currently a mostly-ready engine that is designed to be used by programmers.
+A 3D game engine that stitches several systems together in order to provide a single API for game development purposes. 
+Suture is currently a mostly-ready engine that is designed to be used by programmers. It builds upon the ideas behind 
+[Rollup](http://rollupjs.org/) and embraces ES6 modules, thus providing a variety of tools that can be used selectively.
 
 
 ## Installation
