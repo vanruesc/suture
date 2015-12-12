@@ -38,7 +38,7 @@ suture.run();
 
 
 ## Documentation
-[API](http://vanruesc.github.io/oimo/docs)
+[API](http://vanruesc.github.io/suture/docs)
 
 
 ## Rendering
