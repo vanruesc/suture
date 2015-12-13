@@ -7,7 +7,8 @@
 
 A 3D game engine that stitches several systems together in order to provide a single API for game development purposes. 
 Suture is currently a mostly-ready engine that is designed to be used by programmers. It builds upon the ideas behind 
-[Rollup](http://rollupjs.org/) and embraces ES6 modules, thus providing a variety of tools that can be used selectively.
+[Rollup](http://rollupjs.org/) and embraces [ES6 modules](http://www.2ality.com/2014/09/es6-modules-final.html), 
+thus providing a variety of tools that can be used selectively.
 
 
 ## Installation
