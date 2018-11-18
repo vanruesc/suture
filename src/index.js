@@ -1,1 +1,5 @@
-export { Suture } from "./suture";
+/**
+ * Core components.
+ */
+
+export { Suture } from "./Suture.js";

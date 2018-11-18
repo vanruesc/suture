@@ -1,8 +1,13 @@
 /**
- * The Suture game engine.
- *
- * @class Suture
+ * This is a placeholder.
  */
 
-export function Suture() {
+export class Suture {
+
+	/**
+	 * This is a placeholder.
+	 */
+
+	constructor() {}
+
 }

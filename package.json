@@ -4,24 +4,21 @@
 	"description": "A 3D game engine.",
 	"homepage": "https://github.com/vanruesc/suture",
 	"main": "build/suture.js",
-	"jsnext:main": "src/index.js",
-	"license": "Apache-2.0",
+	"module": "src/index.js",
+	"sideEffects": false,
+	"license": "Zlib",
 
 	"keywords": [
 		"3d",
-		"three",
 		"rendering",
 		"physics",
-		"simulation",
-		"oimo",
-		"OimoPhysics",
 		"game",
 		"engine"
 	],
 
 	"author": {
 		"name": "Raoul van Rüschen",
-		"email": "vanruesc@fh-brandenburg.de"
+		"email": "vanruesc@outlook.de"
 	},
 
 	"repository": {
@@ -33,29 +30,47 @@
 		"url": "https://github.com/vanruesc/suture/issues"
 	},
 
+	"files": [
+		"src",
+		"build"
+	],
+
 	"scripts": {
-		"test": "node grunt-cli.js"
+		"ava": "ava",
+		"lint": "npm run lint:lib && npm run lint:test",
+		"lint:config": "eslint *.js",
+		"lint:lib": "eslint src",
+		"lint:test": "eslint test",
+		"build": "rollup -c",
+		"build:production": "cross-env NODE_ENV=production npm run build",
+		"doc": "esdoc",
+		"pretest": "npm run lint && npm run build:production",
+		"test": "npm run ava",
+		"prepack": "npm test"
 	},
 
-	"engines": {
-		"node": ">= 5.1"
+	"ava": {
+		"failFast": true,
+		"files": ["test/**/*.js"]
 	},
 
-	"dependencies": {},
+	"eslintConfig": {
+		"extends": "delta"
+	},
 
 	"devDependencies": {
-		"grunt": "0.x.x",
-		"grunt-contrib-jshint": "x.x.x",
-		"grunt-contrib-uglify": "x.x.x",
-		"grunt-contrib-yuidoc": "x.x.x",
-		"grunt-contrib-clean": "x.x.x",
-		"grunt-contrib-watch": "x.x.x",
-		"grunt-mocha": "x.x.x",
-		"grunt-rollup": "x.x.x",
-		"rollup-plugin-npm": "x.x.x"
-	},
-
-	"peerDependencies": {
-		"grunt": "0.x.x"
+		"@babel/core": "7.x.x",
+		"@babel/preset-env": "7.x.x",
+		"ava": "0.x.x",
+		"cpx": "1.x.x",
+		"cross-env": "5.x.x",
+		"esdoc": "1.x.x",
+		"esdoc-standard-plugin": "1.x.x",
+		"eslint": "5.x.x",
+		"eslint-config-delta": "0.x.x",
+		"rollup": "0.x.x",
+		"rollup-plugin-babel": "4.x.x",
+		"rollup-plugin-babel-minify": "6.x.x",
+		"rollup-plugin-node-resolve": "3.x.x"
 	}
 }
