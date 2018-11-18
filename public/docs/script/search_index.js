@@ -1,8 +1,8 @@
 window.esdocSearchIndex = [
   [
-    "suture/src/suture.js~suture",
-    "class/src/Suture.js~Suture.html",
-    "<span>Suture</span> <span class=\"search-result-import-path\">suture/src/Suture.js</span>",
+    "suture/src/core/suture.js~suture",
+    "class/src/core/Suture.js~Suture.html",
+    "<span>Suture</span> <span class=\"search-result-import-path\">suture/src/core/Suture.js</span>",
     "class"
   ],
   [
@@ -288,16 +288,22 @@ window.esdocSearchIndex = [
     "external"
   ],
   [
-    "src/suture.js",
-    "file/src/Suture.js.html",
-    "src/Suture.js",
+    "src/core/suture.js",
+    "file/src/core/Suture.js.html",
+    "src/core/Suture.js",
     "file"
   ],
   [
-    "src/suture.js~suture#constructor",
-    "class/src/Suture.js~Suture.html#instance-constructor-constructor",
-    "src/Suture.js~Suture#constructor",
+    "src/core/suture.js~suture#constructor",
+    "class/src/core/Suture.js~Suture.html#instance-constructor-constructor",
+    "src/core/Suture.js~Suture#constructor",
     "method"
+  ],
+  [
+    "src/core/index.js",
+    "file/src/core/index.js.html",
+    "src/core/index.js",
+    "file"
   ],
   [
     "src/index.js",

@@ -3,7 +3,7 @@
   "expectCount": 2,
   "actualCount": 2,
   "files": {
-    "src/Suture.js": {
+    "src/core/Suture.js": {
       "expectCount": 2,
       "actualCount": 2,
       "undocumentLines": []

@@ -1,5 +1,7 @@
 /**
- * Core components.
+ * Exposure of the library components.
  */
 
-export { Suture } from "./Suture.js";
+export {
+	Suture
+} from "./core";
